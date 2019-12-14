@@ -44,15 +44,18 @@ body{
   background-size: cover;
   width: 50%;
   margin: 0 auto;
-  color:white;
-  font-weight: 900px;
+  color: #ffd081;
+  font-weight: 900;
   border-radius: 10%;
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur268.cur), pointer;
 }
 Field{
   width: 10%;
 }
 input{
  margin: 5% auto;
+ 
+ font-weight: 900;
 }
 
 input:hover{
@@ -87,6 +90,7 @@ button:hover{
     margin: 2% auto;
     border-radius: 5%;
     opacity:.9;
+    font-weight: 900;
     
   }
 
