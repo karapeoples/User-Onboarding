@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-image: url('https://images.pexels.com/photos/556666/pexels-photo-556666.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  margin: 0 auto;
+  color: #ffd081;
+  font-weight: 900;
+  border-radius: 10%;
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur268.cur), pointer;
+}
+Field{
+  width: 10%;
+}
+input{
+ margin: 5% auto;
+ 
+ font-weight: 900;
+}
+
+input:hover{
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur268.cur), pointer ;
+}
+label{
+  margin: 5% auto;
+}
+
+.passL{
+  margin-left: -2%;
+}
+
+button{
+  font-size: 25px;
+  width: 25%;
+  margin: 2% auto;
+  background: white;
+  color: #ffd081;
+  border-radius: 5%;
+  
+}
+button:hover{
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur268.cur), pointer ;
+    opacity: .5;
+  }
+
+  .card{
+    width: 50%;
+    background: #ffd081;
+    color: white;
+    margin: 2% auto;
+    border-radius: 5%;
+    opacity:.9;
+    font-weight: 900;
+    
+  }
+
+  h1{
+    font-size: 35px;
+    opacity:2;
+  }
+
+  p{
+    font-size: 20px;
+    opacity:2;
+  }
